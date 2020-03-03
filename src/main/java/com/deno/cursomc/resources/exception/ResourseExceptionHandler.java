@@ -1,4 +1,4 @@
-package com.deno.cursomc.resourses.exception;
+package com.deno.cursomc.resources.exception;
 
 import javax.servlet.http.HttpServletRequest;
 

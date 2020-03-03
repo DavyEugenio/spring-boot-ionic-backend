@@ -1,4 +1,4 @@
-package com.deno.cursomc.resourses;
+package com.deno.cursomc.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +12,7 @@ import com.deno.cursomc.services.PedidoService;
 
 @RestController
 @RequestMapping(value="/pedidos")
-public class PedidoResourses {
+public class PedidoResource {
 	
 	@Autowired
 	private PedidoService service;

@@ -1,4 +1,4 @@
-package com.deno.cursomc.resourses.exception;
+package com.deno.cursomc.resources.exception;
 
 import java.io.Serializable;
 
