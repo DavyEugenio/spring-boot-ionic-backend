@@ -9,5 +9,5 @@ import com.deno.cursomc.domain.Cliente;
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Integer>{
 	@Transactional(readOnly = true)
-	Cliente findClienteByEmail(String email);
+	Cliente findByEmail(String email);
 }
